@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fest">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_yugawhitevector"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_yugawhitevector"
+        android:supportsRtl="true"
+        android:theme="@style/splashScreen">
+        <activity
+            android:name=".UploadToGallaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegFormsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:label="Register"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DevActivity"
+            android:exported="false"
+            android:label="Developers"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ProgramsActivity"
+            android:exported="false"
+            android:label="Programs"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CoordActivity"
+            android:exported="false"
+            android:label="Coordinators"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CollegeActivity"
+            android:exported="false"
+            android:label="Collage"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FestActivity"
+            android:exported="false"
+            android:label="Fest"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".BrochureActivity"
+            android:exported="false"
+            android:label="Brochure"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AdminCricketActivity"
+            android:exported="false"
+            android:label="Cricket"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SportsActivity"
+            android:exported="false"
+            android:label="Sports"
+            android:parentActivityName=".ProgramsActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

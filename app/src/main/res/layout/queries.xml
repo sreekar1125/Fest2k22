@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp">
+    <ImageView
+        android:id="@+id/image_to_upload"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <Button
+        android:id="@+id/upload_image"
+        android:layout_below="@+id/image_to_upload"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:text="Upload"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/raise"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/upload_image"
+        android:text="Raise a ticket"
+        android:gravity="center"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/raisebutton"
+        android:layout_below="@+id/raise"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:text="Raise"
+        android:textSize="15sp"/>
+</RelativeLayout>

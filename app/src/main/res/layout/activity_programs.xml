@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="1dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/sports"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <ImageView
+            android:id="@+id/cultural"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@id/sports"
+           />
+
+        <ImageView
+            android:id="@+id/technical"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_below="@id/sports"
+            android:layout_alignParentLeft="true"
+
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp" />
+        <ImageView
+            android:id="@+id/stall"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/cultural"
+            android:layout_toRightOf="@id/technical"
+
+            android:layout_margin="5dp"
+
+            />
+        <ImageView
+            android:id="@+id/flash"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/athletics"
+
+            android:layout_margin="5dp"
+
+            />
+        <ImageView
+            android:id="@+id/athletics"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/technical"
+
+            android:layout_margin="5dp"
+
+            />
+        <ImageView
+            android:id="@+id/livestream"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/athletics"
+            android:layout_below="@id/stall"
+
+            android:layout_margin="5dp"
+
+            />
+        <ImageView
+            android:id="@+id/awards"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/flash"
+            android:layout_below="@id/livestream"
+
+            android:layout_margin="5dp"
+
+            />
+    </RelativeLayout>
+</ScrollView>

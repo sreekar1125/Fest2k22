@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    tools:context=".FestActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YUGA - 2K22"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        android:textColor="@color/red"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EMBRACING THE CULTURE"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:layout_margin="10dp"
+            android:textColor="@color/yellow"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/yuga_black_vector"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            android:maxHeight="400dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/yugaTv"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+</ScrollView>

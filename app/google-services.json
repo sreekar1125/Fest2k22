@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "444029324567",
+    "firebase_url": "https://fest-3a1de-default-rtdb.firebaseio.com",
+    "project_id": "fest-3a1de",
+    "storage_bucket": "fest-3a1de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444029324567:android:d207a49fcfcc57b25dfb52",
+        "android_client_info": {
+          "package_name": "com.example.fest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444029324567-8as19v4oc8avqv8fl44e380457h4nf4h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmgDe1blIo3OdZ1oA5qZYnseUHMoljXm4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444029324567-8as19v4oc8avqv8fl44e380457h4nf4h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
